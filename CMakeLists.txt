@@ -76,7 +76,7 @@ OPTION(ENABLE_ANSI_MODE
   ${ENABLE_ANSI_MODE})
 OPTION(LUCENE_USE_INTERNAL_CHAR_FUNCTIONS
   "use internal character functions. required to run tests correctly"
-  ON)
+  OFF)
 OPTION(ENABLE_PACKAGING
   "create build scripts for creating clucene packages"
   OFF)
